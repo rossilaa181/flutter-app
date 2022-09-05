@@ -94,13 +94,18 @@ class _MyHomePageState extends State<MyHomePage> {
           // axis because Columns are vertical (the cross axis would be
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+          children: const [
+            Text(
+              'Rosi Latansa Salsabela',
+              style: TextStyle(fontWeight: FontWeight.w800, fontSize: 20),
             ),
             Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              '2041720026',
+              style: TextStyle(fontSize: 16),
+            ),
+            Text(
+              '\n21/TI-3G',
+              style: TextStyle(fontStyle: FontStyle.italic),
             ),
           ],
         ),
